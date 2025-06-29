@@ -1,6 +1,6 @@
 Layering: 
 ├── Layer 0 -> "digging"
-├── Layer 1 -> "walking"
+├── Layer 1 -> "walking" (default)
 └── Layer 2 -> "flying"
 
 protected int healthPoints;
@@ -24,6 +24,9 @@ protected int speed;
 protected int cost;
 ├── max: 10
 └── min: 1
+
+protected int troopCount;
+└── default: 1
 
 protected String sourceImage;
 └──image from source
