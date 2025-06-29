@@ -1,0 +1,28 @@
+Layering: 
+├── Layer 0 -> "digging"
+├── Layer 1 -> "walking"
+└── Layer 2 -> "flying"
+
+protected int healthPoints;
+├── min 100
+└── default 400
+
+protected int damagePoints;
+├── max: 300
+└── default: 50
+
+protected int range;
+├── default
+├── min: 1(close range)
+└── max: 20
+
+protected int speed;
+├── default
+├── min: 0(non movable tower)
+└── max: 4
+
+protected String sourceImage;
+└──image from source
+
+protected String sourceName;
+└──source name -> name of troup
