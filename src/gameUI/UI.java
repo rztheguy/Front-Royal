@@ -1,4 +1,4 @@
-package gameUI;
+package gameui;
 
 import java.awt.event.*;
 import javax.swing.*;

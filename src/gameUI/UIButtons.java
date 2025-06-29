@@ -1,4 +1,4 @@
-package gameUI;
+package gameui;
 
 import java.awt.FontMetrics;
 import java.awt.Graphics;

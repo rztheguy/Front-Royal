@@ -5,11 +5,12 @@ public abstract class Card {
     protected int damagePoints = 50;
     protected int range;
     protected int speed;
+    protected int cost;
     protected String sourceImage;
     protected String sourceName;
 
-    protected int cordX;
-    protected int cordY;
+    private int cordX;
+    private int cordY;
     protected int renderingLayer; // for troups that can move underground and will not have environmental impact until it appears on base layer
     
     public Card(){
@@ -21,6 +22,6 @@ public abstract class Card {
     }
 
     private void move() {
-
+        
     }
 }

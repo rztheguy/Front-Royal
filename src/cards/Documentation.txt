@@ -21,6 +21,10 @@ protected int speed;
 ├── min: 0(non movable tower)
 └── max: 4
 
+protected int cost;
+├── max: 10
+└── min: 1
+
 protected String sourceImage;
 └──image from source
 
